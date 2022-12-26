@@ -1,4 +1,6 @@
-{
+
+
+export default{
   "expo": {
     "name": "firetruck",
     "slug": "firetruck",
@@ -6,6 +8,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "sdkVersion": "46.0.0",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -21,6 +24,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.android.firetruck",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
